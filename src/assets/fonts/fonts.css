@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-Medium.woff2') format('woff2'),
+        url('subset-DMSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-MediumItalic.woff2') format('woff2'),
+        url('subset-DMSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-Bold.woff2') format('woff2'),
+        url('subset-DMSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-Regular.woff2') format('woff2'),
+        url('subset-DMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-Italic.woff2') format('woff2'),
+        url('subset-DMSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('subset-DMSans-BoldItalic.woff2') format('woff2'),
+        url('subset-DMSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Forum';
+  src: url('subset-Forum.woff2') format('woff2'),
+  url('subset-Forum.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-ThinItalic.woff2') format('woff2'),
+  url('subset-Sarabun-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-LightItalic.woff2') format('woff2'),
+  url('subset-Sarabun-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Regular.woff2') format('woff2'),
+  url('subset-Sarabun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-BoldItalic.woff2') format('woff2'),
+  url('subset-Sarabun-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-SemiBoldItalic.woff2') format('woff2'),
+  url('subset-Sarabun-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Bold.woff2') format('woff2'),
+  url('subset-Sarabun-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Thin.woff2') format('woff2'),
+  url('subset-Sarabun-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-SemiBold.woff2') format('woff2'),
+  url('subset-Sarabun-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-MediumItalic.woff2') format('woff2'),
+  url('subset-Sarabun-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Medium.woff2') format('woff2'),
+  url('subset-Sarabun-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-ExtraBold.woff2') format('woff2'),
+  url('subset-Sarabun-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-ExtraLightItalic.woff2') format('woff2'),
+  url('subset-Sarabun-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Italic.woff2') format('woff2'),
+  url('subset-Sarabun-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-ExtraLight.woff2') format('woff2'),
+  url('subset-Sarabun-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-Light.woff2') format('woff2'),
+  url('subset-Sarabun-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('subset-Sarabun-ExtraBoldItalic.woff2') format('woff2'),
+  url('subset-Sarabun-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
