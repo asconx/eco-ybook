@@ -236,14 +236,14 @@ function downloadRandomFile() {
 @media (max-width: 630px)
   .title
     text-align: center
-  .img-mobile
-    width: 100%
-  .container
-    width: 100%
 
 @media (max-width: 1050px)
   .bird-block
     flex-direction: column
     align-items: center
+  .img-mobile
+    width: 100%
+  .container
+    width: 100%
     
 </style>
