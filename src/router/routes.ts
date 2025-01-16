@@ -53,6 +53,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('pages/VoucherPage.vue'),
     children: [{ path: '', component: () => import('pages/VoucherPage.vue') }],
   },
+  {
+    path: '/Cookies',
+    component: () => import('pages/CookiesPage.vue'),
+    children: [{ path: '', component: () => import('pages/CookiesPage.vue') }],
+  },
   // Always leave this as last one,
   // but you can also remove it
   {
