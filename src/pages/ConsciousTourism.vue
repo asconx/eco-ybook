@@ -6,12 +6,12 @@
         <q-parallax
           :height="400" src="../assets/las4.jpg"
         >
-          <h4 class="text-h4 text-white q-my-md">Dołącz do Inicjatywy</h4>
-          <h3 class="text-h3 text-white q-my-sm">Świadomej Turystyki</h3>
+          <h4 class="text-h4 text-white q-my-md title">Dołącz do Inicjatywy</h4>
+          <h3 class="text-h3 text-white q-my-sm title">Świadomej Turystyki</h3>
         </q-parallax>
       </div>
-      <div class="row wrapper q-my-lg q-pa-lg">
-        <div class="col-6">
+      <div class="row wrapper q-my-lg q-pa-lg bird-block">
+        <div class="col-6 container">
           <p class="text-subtitle1">Masowa turystyka ma swoje ciemne strony – zanieczyszczona woda i&nbsp;powietrze,
             góry śmieci w parkach
             narodowych,
@@ -35,8 +35,8 @@
             społeczności.
           </p>
         </div>
-        <div class="col-6 q-px-lg">
-          <img alt="" class="full-width" src="../assets/ptak.jpg" style="border-radius: 30px">
+        <div class="col-6 q-px-lg container">
+          <img alt="" class="full-width img-mobile" src="../assets/ptak.jpg" style="border-radius: 10px">
         </div>
       </div>
       <section class="main-background q-py-lg q-my-lg">
@@ -184,7 +184,7 @@
                    unelevated/>
           </div>
           <div class="col-6 q-px-lg">
-            <img alt="" class="full-width" src="../assets/eko.jpg" style="border-radius: 30px">
+            <img alt="" class="full-width img-mobile" src="../assets/eko.jpg" style="border-radius: 10px">
           </div>
         </div>
       </div>
@@ -232,4 +232,18 @@ function downloadRandomFile() {
 <style lang="sass" scoped>
 .text-subtitle1
   font-size: 1.1rem
+
+@media (max-width: 630px)
+  .title
+    text-align: center
+  .img-mobile
+    width: 100%
+  .container
+    width: 100%
+
+@media (max-width: 1050px)
+  .bird-block
+    flex-direction: column
+    align-items: center
+    
 </style>
