@@ -16,7 +16,7 @@
         <h3 class="text-h6 font-bold">Prawnie i poważnie</h3>
         <p><a href="#">Zasady i regulaminy</a></p>
         <p><a href="#">Polityka prywatności</a></p>
-        <p><a href="#">Polityka plików cookies</a></p>
+        <p><a href="cookies">Polityka plików cookies</a></p>
       </div>
 
       <div class="col-12 col-md-4">
