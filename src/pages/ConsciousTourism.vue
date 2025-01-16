@@ -117,7 +117,7 @@
           </div>
         </div>
         <q-separator class="q-my-xl" />
-        <h2 class="text-h4 q-mb-xl">Jakie korzyści zyskujesz?</h2>
+        <h2 class="text-h4 q-mb-xl" style="margin: 0 20px;">Jakie korzyści zyskujesz?</h2>
         <ol class="q-my-lg text-subtitle1">
           <li class="q-mb-md">
             Nasze szerokie kanały komunikacyjne promują Gospodarzy, którzy chcą działać odpowiedzialnie. Twoje działania
@@ -142,8 +142,8 @@
           src="../assets/wrzosowisko.webp"
           style="border-radius: 30px; max-height: 500px">
         </q-img>
-        <h2 class="text-h4 q-mb-xl">O co będziemy Cię pytać?</h2>
-        <p class="text-subtitle1">
+        <h2 class="text-h4 q-mb-xl" style="margin: 0 20px;">O co będziemy Cię pytać?</h2>
+        <p class="text-subtitle1" style="margin: 0 30px;">
           Program ocenia zaangażowanie Gospodarzy w promowanie idei zrównoważonego rozwoju w turystyce. Analizujemy
           podejście do ochrony środowiska, zachowania dziedzictwa kulturowego, wsparcia lokalnych społeczności oraz
           edukacji ekologicznej. Formularz, nad którym pracowaliśmy ponad rok, stanowi precyzyjne i wiarygodne
@@ -154,7 +154,7 @@
       </div>
       <HostsSection />
       <div class="wrapper">
-        <h4 class="text-h4 q-mt-xl q-mb-md">Jak wygląda raport?</h4>
+        <h4 class="text-h4 q-mt-xl q-mb-md" style="margin: 0 20px;">Jak wygląda raport?</h4>
         <div class="row q-my-md q-pa-lg">
           <div class="col-6">
             <p class="text-subtitle1">Masowa turystyka ma swoje ciemne strony – zanieczyszczona woda i&nbsp;powietrze,
