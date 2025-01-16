@@ -5,8 +5,8 @@
       <q-parallax
         :height="400" src="../assets/lampki.jpg"
       >
-        <h4 class="text-h4 text-white q-my-md">Zaskocz bliskich voucherem</h4>
-        <h3 class="text-h3 text-white q-my-sm">Podaruj przygodę</h3>
+        <h4 class="text-h4 text-white q-my-md enderho">Zaskocz bliskich voucherem</h4>
+        <h3 class="text-h3 text-white q-my-sm enderht">Podaruj przygodę</h3>
       </q-parallax>
       <div class="lagoon-background q-mb-xl">
         <div class="wrapper q-pa-lg">
@@ -27,11 +27,11 @@
             dosłownie w ostatniej chwili – my zadbamy o całą resztę. </p>
         </div>
       </div>
-      <div class="row wrapper q-my-xl q-pa-lg">
-        <div class="col-6 q-px-lg">
+      <div class="row wrapper q-my-xl q-pa-lg mobile">
+        <div class="col-6 q-px-lg container-mobile">
           <img alt="" class="full-width" src="../assets/voucher1.webp" style="border-radius: 30px">
         </div>
-        <div class="col-6 q-px-lg">
+        <div class="col-6 q-px-lg container-mobile">
           <h4 class="text-h4 q-my-lg">Voucher do wydrukowania</h4>
           <div class="q-mb-md">
             <label class="text-subtitle1">Kwota vouchera</label>
@@ -40,8 +40,9 @@
                 <q-btn class="btn-option q-ma-sm" label="200 zł" outline rounded />
                 <q-btn class="btn-option q-ma-sm" label="500 zł" outline rounded />
                 <q-btn class="btn-option q-ma-sm" label="1000 zł" outline rounded />
+                
               </div>
-              <q-input class="q-mx-md" outlined placeholder="np. 1500" rounded style="width: 200px" />
+              <q-input class="q-ma-sm" outlined placeholder="np. 1500" rounded style="width: 100px" />
             </div>
           </div>
           <div class="q-my-md">
@@ -97,4 +98,21 @@ import VoucherFAQ from "components/VoucherFAQ.vue";</script>
 <style lang="sass" scoped>
 .text-subtitle1
   font-size: 1.1rem
+
+@media (max-width: 630px) 
+  .mobile 
+   flex-direction: column
+
+  .enderho
+    text-align: center
+
+  .enderht
+    text-align: center
+
+@media (max-width: 1050px) 
+  .container-mobile
+    width: 100%
+
+
+
 </style>
