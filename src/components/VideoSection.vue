@@ -1,12 +1,4 @@
 <template>
-  <q-parallax :height="950">
-    <template v-slot:media>
-      <video width="1920" height="1000" poster="../assets/las.jpg" autoplay loop muted>
-        <source type="video/mp4" src="../assets/video.mp4">
-      </video>
-    </template>
-    <h3 class="text-white text-center">Pomagamy odciąć się od codzienności.</h3>
-  </q-parallax>
 
   <div class="row" style="width: 100%">
     <div class="col-3">
