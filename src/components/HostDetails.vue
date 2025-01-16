@@ -59,7 +59,21 @@
       przedpłaty – Gospodarz za treść oferty, sposób jej realizacji oraz reklamacje. Gospodarz
       jest przedsiębiorcą, więc podlegasz ochronie wg prawa konsumenckiego UE.
     </p>
-    <q-btn class="q-my-md" color="deep-orange-10" label="Sprawdź szczegóły" rounded unelevated />
+    <!--TUTAJ JEST PRZYCISK-->
+    <q-btn class="q-my-md" color="deep-orange-10" label="Sprawdź szczegóły" rounded unelevated /> 
+    <q-dialog v-model="icon">
+      <q-card>
+        <q-card-section class="row items-center q-pb-none">
+          <div class="text-h6">Atrakcje i udogodnienia</div>
+          <q-space />
+          <q-btn icon="close" flat round dense v-close-popup />
+        </q-card-section>
+
+        <q-card-section>
+
+        </q-card-section>
+      </q-card>
+    </q-dialog>
   </div>
 </template>
 <script lang="ts" setup>

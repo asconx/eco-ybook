@@ -31,16 +31,34 @@
       </ul>
     </div>
   </div>
+  <!--TUTAJ JEST PRZYCISK-->
   <q-btn
     class="q-my-lg"
     color="primary"
-    label="Zobacz wszystkie atrakcje i udogodnienia (61)"
+    label="Zobacz wszystkie atrakcje i udogodnienia"
     rounded
     unelevated
+    @click="icon = true"
   />
-</template>
-<script lang="ts" setup>
 
+  <q-dialog v-model="icon">
+      <q-card>
+        <q-card-section class="row items-center q-pb-none">
+          <div class="text-h6">Atrakcje i udogodnienia</div>
+          <q-space />
+          <q-btn icon="close" flat round dense v-close-popup />
+        </q-card-section>
+
+        <q-card-section>
+
+        </q-card-section>
+      </q-card>
+    </q-dialog>
+</template>
+
+<script lang="ts" setup>
+import { ref } from 'vue'
+const icon = ref(false)
 </script>
 
 
