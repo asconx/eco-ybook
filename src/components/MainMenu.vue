@@ -20,7 +20,7 @@
         <q-item clickable v-close-popup>
           <q-item-section>Jedzenie</q-item-section>
         </q-item>
-        <q-item clickable v-close-popup>
+        <q-item to="/AtractionPage" v-close-popup>
           <q-item-section>Atrakcje</q-item-section>
         </q-item>
         <q-item clickable v-close-popup>
