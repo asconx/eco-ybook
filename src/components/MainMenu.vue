@@ -35,7 +35,7 @@
   <q-btn stretch flat label="Poznaj nas" color="grey-7">
     <q-menu class="no-shadow">
       <q-list style="min-width: 100px">
-        <q-item clickable v-close-popup>
+        <q-item to="about-us" clickable v-close-popup>
           <q-item-section>O Nas</q-item-section>
         </q-item>
         <q-item to="/travel-voucher" clickable v-close-popup>
