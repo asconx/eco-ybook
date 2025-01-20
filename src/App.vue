@@ -1,26 +1,26 @@
 <template>
-  <router-view :key="$route.path"/>
+  <router-view :key="$route.path" />
 </template>
 
 <script setup lang="ts">
-import {useQuasar} from 'quasar'
-import Emitter from 'tiny-emitter/instance'
+import { useQuasar } from 'quasar';
+import Emitter from 'tiny-emitter/instance';
 
-const $q = useQuasar()
+const $q = useQuasar();
 
 Emitter.on('server-error', (msg: string) => {
   $q.notify({
     type: 'negative',
-    message: msg
-  })
-})
+    message: msg,
+  });
+});
 
 Emitter.on('server-success', (msg: string) => {
   $q.notify({
     type: 'positive',
-    message: msg
-  })
-})
+    message: msg,
+  });
+});
 </script>
 <style lang="sass">
 @import url('assets/fonts/fonts.css')
@@ -35,6 +35,7 @@ a
 .wrapper
   max-width: 1300px
   margin: 0px auto
+  padding: 20px
 
 .highlight-item
   background-color: #f6e5dc
