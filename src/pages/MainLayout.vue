@@ -36,6 +36,31 @@
 </template>
 
 <script lang="ts" setup>
+import { useQuasar } from 'quasar';
+
+// Pobranie instancji Quasar
+const $q = useQuasar();
+
+// Zapis ciasteczka
+const setCookie = () => {
+  $q.cookies.set('userToken', 'abc123', {
+    expires: 7, // Czas wygaśnięcia w dniach
+    path: '/',  // Ścieżka
+    secure: true // HTTPS (zalecane w środowisku produkcyjnym)
+  });
+};
+
+// Odczyt ciasteczka
+const getCookie = () => {
+  const token = $q.cookies.get('userToken');
+  console.log('Token:', token);
+};
+
+// Usunięcie ciasteczka
+const removeCookie = () => {
+  $q.cookies.remove('userToken');
+};
+
 import MainSearch from 'components/MainSearch.vue'
 import VideoSection from 'components/VideoSection.vue'
 import MainOffers from 'components/MainOffers.vue';
