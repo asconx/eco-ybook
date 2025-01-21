@@ -54,7 +54,7 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('pages/VoucherPage.vue') }],
   },
   {
-    path: '/atractions',
+    path: '/AtractionPage',
     component: () => import('pages/AtractionPage.vue'),
     children: [{ path: '', component: () => import('pages/AtractionPage.vue') }],
   },
