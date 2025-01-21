@@ -37,6 +37,18 @@
 
 <script lang="ts" setup>
 import { useQuasar } from 'quasar';
+import MainSearch from 'components/MainSearch.vue'
+import VideoSection from 'components/VideoSection.vue'
+import MainOffers from 'components/MainOffers.vue';
+import StatsSection from 'components/StatsSection.vue';
+import CountriesSection from 'components/CountriesSection.vue';
+import FooterComponent from 'components/FooterComponent.vue';
+import OffersCarousel from 'components/OffersCarousel.vue';
+import CategoriesList from 'components/CategoriesList.vue';
+import EcoSection from 'components/EcoSection.vue';
+import NewsAndComments from 'components/NewsAndComments.vue';
+import HeaderComponent from "components/HeaderComponent.vue";
+import HostsSection from "components/HostsSection.vue";
 
 // Pobranie instancji Quasar
 const $q = useQuasar();
@@ -61,17 +73,5 @@ const removeCookie = () => {
   $q.cookies.remove('userToken');
 };
 
-import MainSearch from 'components/MainSearch.vue'
-import VideoSection from 'components/VideoSection.vue'
-import MainOffers from 'components/MainOffers.vue';
-import StatsSection from 'components/StatsSection.vue';
-import CountriesSection from 'components/CountriesSection.vue';
-import FooterComponent from 'components/FooterComponent.vue';
-import OffersCarousel from 'components/OffersCarousel.vue';
-import CategoriesList from 'components/CategoriesList.vue';
-import EcoSection from 'components/EcoSection.vue';
-import NewsAndComments from 'components/NewsAndComments.vue';
-import HeaderComponent from "components/HeaderComponent.vue";
-import HostsSection from "components/HostsSection.vue";
 </script>
 
