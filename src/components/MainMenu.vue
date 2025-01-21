@@ -5,7 +5,7 @@
         <q-item to="/offers" clickable v-close-popup>
           <q-item-section>Wszystkie noclegi</q-item-section>
         </q-item>
-        <q-item clickable v-close-popup>
+        <q-item to="/last-minute" clickable v-close-popup>
           <q-item-section>Last minute</q-item-section>
         </q-item>
         <q-item clickable v-close-popup>
@@ -41,6 +41,7 @@
         <q-item to="/travel-voucher" clickable v-close-popup>
           <q-item-section>Vouchery prezentowe</q-item-section>
         </q-item>
+
         <q-item to="/initiative-for-conscious-tourism" clickable v-close-popup>
           <q-item-section>Świadome podróżowanie</q-item-section>
         </q-item>
@@ -48,8 +49,12 @@
     </q-menu>
   </q-btn>
   <a href="https://panel.ybook.pl/register">
-    <q-btn rounded unelevated label="Dodaj ofertę" color="primary" class="q-mx-md"/>
+    <q-btn
+      rounded
+      unelevated
+      label="Dodaj ofertę"
+      color="primary"
+      class="q-mx-md"
+    />
   </a>
 </template>
-
-
