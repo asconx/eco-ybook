@@ -23,6 +23,20 @@
               czasu poświęcamy na przyjemności, więc serdecznie zapraszamy Cię do skorzystania z naszych zasobów.
             </p>
           </section>
+          <section class="team">
+            <div class="team-member">
+              <q-img src="../assets/TeamMember1.png" alt="Team member 1" />
+            </div>
+            <div class="team-member">
+              <q-img src="../assets/TeamMember2.png" alt="Team member 2" />
+            </div>
+            <div class="team-member">
+              <q-img src="../assets/TeamMember3.png" alt="Team member 3" />
+            </div>
+            <div class="team-member">
+              <q-img src="../assets/DogIcon.png" alt="Team member 4" />
+            </div>
+          </section>
         </main>
       </div>
     </q-page-container>
@@ -33,22 +47,19 @@
 <script lang="ts" setup>
 import FooterComponent from "components/FooterComponent.vue";
 import HeaderComponent from "components/HeaderComponent.vue";
-import { ref } from 'vue';
-
-const teamMembers = ref({
-  {
-    image: new URL('../assets/TeamMember1.png')
-  }
-})
 </script>
 
 <style lang="sass" scoped>
+.q-layout
+  background-color: #f4f1eb
+
 .page-container
   font-family: Arial, sans-serif
   text-align: center
   max-width: 800px
   margin: 0 auto
   color: #333
+  background-color: #f4f1eb
 
 header h1
   font-size: 2.5rem
@@ -79,7 +90,6 @@ header .highlight
   width: 220px
   height: 250px
   overflow: hidden
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 
 .team-member img
   width: 100%
