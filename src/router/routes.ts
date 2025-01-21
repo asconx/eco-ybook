@@ -8,15 +8,15 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/offers',
-    component: () => import('pages/OffersPage.vue')
+    component: () => import('pages/OffersPage.vue'),
   },
   {
     path: '/offers/:offerId',
-    component: () => import('pages/DetailsPage.vue')
+    component: () => import('pages/DetailsPage.vue'),
   },
   {
     path: '/offers/:offerId/:term',
-    component: () => import('pages/ConfirmationPage.vue')
+    component: () => import('pages/ConfirmationPage.vue'),
   },
   {
     path: '/login',
@@ -31,7 +31,9 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/reset-password',
     component: () => import('pages/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/ResetPasswordPage.vue') }],
+    children: [
+      { path: '', component: () => import('pages/ResetPasswordPage.vue') },
+    ],
   },
   {
     path: '/panel',
@@ -46,12 +48,19 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/initiative-for-conscious-tourism',
     component: () => import('pages/ConsciousTourism.vue'),
-    children: [{ path: '', component: () => import('pages/ConsciousTourism.vue') }],
+    children: [
+      { path: '', component: () => import('pages/ConsciousTourism.vue') },
+    ],
   },
   {
     path: '/travel-voucher',
     component: () => import('pages/VoucherPage.vue'),
     children: [{ path: '', component: () => import('pages/VoucherPage.vue') }],
+  },
+  {
+    path: '/last-minute',
+    component: () => import('pages/LastMinute.vue'),
+    children: [{ path: '', component: () => import('pages/LastMinute.vue') }],
   },
   // Always leave this as last one,
   // but you can also remove it
