@@ -6,12 +6,12 @@
         <q-parallax
           :height="400" src="../assets/las4.jpg"
         >
-          <h4 class="text-h4 text-white q-my-md">Dołącz do Inicjatywy</h4>
-          <h3 class="text-h3 text-white q-my-sm">Świadomej Turystyki</h3>
+          <h4 class="text-h4 text-white q-my-md title">Dołącz do Inicjatywy</h4>
+          <h3 class="text-h3 text-white q-my-sm title">Świadomej Turystyki</h3>
         </q-parallax>
       </div>
-      <div class="row wrapper q-my-lg q-pa-lg">
-        <div class="col-6">
+      <div class="row wrapper q-my-lg q-pa-lg bird-block">
+        <div class="col-6 container">
           <p class="text-subtitle1">Masowa turystyka ma swoje ciemne strony – zanieczyszczona woda i&nbsp;powietrze,
             góry śmieci w parkach
             narodowych,
@@ -35,8 +35,8 @@
             społeczności.
           </p>
         </div>
-        <div class="col-6 q-px-lg">
-          <img alt="" class="full-width" src="../assets/ptak.jpg" style="border-radius: 30px">
+        <div class="col-6 q-px-lg container">
+          <img alt="" class="full-width img-mobile" src="../assets/ptak.jpg" style="border-radius: 10px">
         </div>
       </div>
       <section class="main-background q-py-lg q-my-lg">
@@ -117,7 +117,7 @@
           </div>
         </div>
         <q-separator class="q-my-xl" />
-        <h2 class="text-h4 q-mb-xl">Jakie korzyści zyskujesz?</h2>
+        <h2 class="text-h4 q-mb-xl" style="margin: 0 20px;">Jakie korzyści zyskujesz?</h2>
         <ol class="q-my-lg text-subtitle1">
           <li class="q-mb-md">
             Nasze szerokie kanały komunikacyjne promują Gospodarzy, którzy chcą działać odpowiedzialnie. Twoje działania
@@ -142,8 +142,8 @@
           src="../assets/wrzosowisko.webp"
           style="border-radius: 30px; max-height: 500px">
         </q-img>
-        <h2 class="text-h4 q-mb-xl">O co będziemy Cię pytać?</h2>
-        <p class="text-subtitle1">
+        <h2 class="text-h4 q-mb-xl" style="margin: 0 20px;">O co będziemy Cię pytać?</h2>
+        <p class="text-subtitle1" style="margin: 0 30px;">
           Program ocenia zaangażowanie Gospodarzy w promowanie idei zrównoważonego rozwoju w turystyce. Analizujemy
           podejście do ochrony środowiska, zachowania dziedzictwa kulturowego, wsparcia lokalnych społeczności oraz
           edukacji ekologicznej. Formularz, nad którym pracowaliśmy ponad rok, stanowi precyzyjne i wiarygodne
@@ -154,7 +154,7 @@
       </div>
       <HostsSection />
       <div class="wrapper">
-        <h4 class="text-h4 q-mt-xl q-mb-md">Jak wygląda raport?</h4>
+        <h4 class="text-h4 q-mt-xl q-mb-md" style="margin: 0 20px;">Jak wygląda raport?</h4>
         <div class="row q-my-md q-pa-lg">
           <div class="col-6">
             <p class="text-subtitle1">Masowa turystyka ma swoje ciemne strony – zanieczyszczona woda i&nbsp;powietrze,
@@ -184,7 +184,7 @@
                    unelevated/>
           </div>
           <div class="col-6 q-px-lg">
-            <img alt="" class="full-width" src="../assets/eko.jpg" style="border-radius: 30px">
+            <img alt="" class="full-width img-mobile" src="../assets/eko.jpg" style="border-radius: 10px">
           </div>
         </div>
       </div>
@@ -232,4 +232,18 @@ function downloadRandomFile() {
 <style lang="sass" scoped>
 .text-subtitle1
   font-size: 1.1rem
+
+@media (max-width: 630px)
+  .title
+    text-align: center
+
+@media (max-width: 1050px)
+  .bird-block
+    flex-direction: column
+    align-items: center
+  .img-mobile
+    width: 100%
+  .container
+    width: 100%
+    
 </style>
