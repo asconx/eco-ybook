@@ -64,6 +64,11 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('pages/EkoTravelGuide.vue') },
     ],
   },
+  {
+    path: '/last-minute',
+    component: () => import('pages/LastMinute.vue'),
+    children: [{ path: '', component: () => import('pages/LastMinute.vue') }],
+  },
 
   // Always leave this as last one,
   // but you can also remove it
