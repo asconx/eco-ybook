@@ -1,0 +1,93 @@
+/* Resetowanie domyślnych stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Podstawowe stylowanie strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Nagłówek */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tytuł i opis */
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Sekcja galerii */
+.countries-gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+.countries-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.country-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.country {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.country:hover {
+    transform: scale(1.05);
+}
+
+.country img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.country h3 {
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+.country p {
+    padding: 0 10px 20px;
+    font-size: 1.1em;
+}
+
+/* Stopka */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
